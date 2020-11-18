@@ -11,6 +11,11 @@ class App extends Component {
     return (
       <div className="page">
         <Header/>
+        <div className='search grid'>
+          {/*Where the gif stack goes */}
+          <input className='input grid-item' placeholder='type something here'
+          onChange={this.handleChange}/>
+        </div>
       </div>
     );
   }
