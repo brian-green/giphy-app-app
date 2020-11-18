@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 const Header = () => (
   <div className="header grid">
-      <h1 className="title">Jiffy</h1>
+      <h1 className="title">Jiffy Lube</h1>
   </div>
 )
 
